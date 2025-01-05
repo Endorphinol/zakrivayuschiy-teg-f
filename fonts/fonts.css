@@ -1,13 +1,14 @@
 /* В этом файле вы импортируете все шрифты для сайта. Один из них вариативный и требует особенной настройки */
 
 @font-face {
-    font-family: 'Inter Veriable';
-    src: local('Inter-Veriable'),
-    url('./fonts/Inter-Variable.woff2') format('woff2 supports variations'),
-    url('./fonts/Inter-Variable.woff2') format('woff2-supports');
+    font-family: 'Inter';
+    src:
+    local('Inter-Veriable'),
+    url('../fonts/Inter-Variable.woff2') format('woff2 supports variations'),
+    url('../fonts/Inter-Variable.woff2') format('woff2-variations');
     font-display: swap;
     font-weight: 400 700;
-}
+  }
 
 @font-face {
     font-family: 'Press Start 2P';

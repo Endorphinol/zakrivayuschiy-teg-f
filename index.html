@@ -1,167 +1,202 @@
 <!DOCTYPE html>
-<html lang="ru">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Закрывающий тег</title>
-  <link rel="stylesheet" href="./fonts/fonts.css" />
-  <link rel="stylesheet" href="./styles/variables.css" />
-  <link rel="stylesheet" href="./styles/globals.css" />
-  <link rel="stylesheet" href="./styles/style.css" />
-  <link rel="stylesheet" href="./styles/animations.css" />
-  <link rel="icon" href="./images/favicon.svg">
-  <link rel="icon" href="./images/favicon.png">
-  <link rel="icon" href="./images/favicon.ico">
-</head>
-
-<body class="page">
-  <header class="header mobdevice-width">
+  <html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Закрывающий тег">
+    <meta property="og:title" content="Закрывающий тег">
+    <meta property="og:url" content="#0">
+    <meta property="og:image" content="./images/favicon.png">
+    <meta property="twitter:card" content="summary_large_image">
+    <link rel="apple-touch-icon" href="./images/favicon.png">
+    <link rel="icon" href="./images/favicon.svg">
+    <link rel="icon" href="./images/favicon.png">
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/animations.css" />
+    <title>Закрывающий тег</title>
+  </head>
+  <body class="page">
+  <header class="header mobile-width">
     <h1 class="header__title">&lt;/HTML&gt;</h1>
-    <p class="header__subtitle">закрывающий тег</p>
+    <p class="header__subtitle">закрывающий тег</p> 
   </header>
   <main class="content">
     <ul class="content__list">
-      <li class="content__item mobdevice-width">
-        <h2 class="content__header">Фритрек и нулевой спринт: Подготовка к работе</h2>
-        <div class="content__image">
-          <img src="./images/preparingvan-min.png" alt="Фургон в 8 битной графике" class="content__van">
-          <p class="content__label">Самое начало</p>
-        </div>
-        <div class="content__block">
-         <p class="content__subtitle">Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
-         <p class="content__subtitle">Место для ваших воспоминаний о начале обучения.</p>
-         <div class="content__push">
-          <svg xmlns="http://www.w3.org/2000/svg" class="content__icon like-icon" width="27" height="24" fill="none"><path fill="#000" d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/></svg>
-          <button type="button" class="card__like-button content__button"><span class="button__text">Like</span></button>
-          </div>
-        </div>
+      <li class="content__item mobile-width">
+        <article class="card">
+          <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
+            <div class="card__wrapper">
+              <p class="card__label">Самое начало пути</p>
+              <img src="./images/preparingvan-min.png" alt="Изображение фургона в виде 8 бит" class="card__image card__image_preparing">
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p class="card__subtitle">Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
+                <p class="card__subtitle">Место для ваших воспоминаний о начале обучения.</p>
+              </div>
+              <div class="button">
+                <button type="button" class="button__heart"><svg class="heart like-icon"><use href="./svg/animation1_frame1.svg#heart"></use></svg></button>
+                <button type="button" class="button__like"><span class="button__text">Like</span></button>
+              </div>
+            </div>
+        </article>
       </li>
-      <li class="content__item mobdevice-width">
-        <h2 class="content__header">1 спринт: Я — чистый лист</h2>
-        <div class="content__image">
-          <img src="./images/listvan-min.png" alt="Фургон в 8 битной графике" class="content__van">
-          <p class="content__label">Опять все сначала</p>
-        </div>
-        <div class="content__block">
-         <p class="content__subtitle">На первых этапах мы работали со страхами и сомнениями, которые часто испытывают новички. Один из них — страх перед чистым листом. Это, конечно же, намного сложнее, чем боязнь куска бумаги. Часто за этим ощущением скрываются более глубокие вопросы: с чего начать? а вдруг будет слишком сложно? что, если я не справлюсь?</p>
-         <p class="content__subtitle">Место для ваших воспоминаний о начале первого спринта.</p>
-         <div class="content__push">
-          <svg xmlns="http://www.w3.org/2000/svg" class="content__icon like-icon" width="27" height="24" fill="none"><path fill="#000" d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/></svg>
-          <button type="button" class="card__like-button content__button"><span class="button__text">Like</span></button>
-          </div>
-        </div>
+      <li class="content__item mobile-width">
+        <article class="card">
+          <h2 class="card__title">1 спринт: Я — чистый лист</h2>
+            <div class="card__wrapper">
+              <p class="card__label">Предвкушение удачи</p>
+              <img src="./images/listvan-min.png" alt="Изображение фургона в виде 8 бит" class="card__image card__image_list">
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p class="card__subtitle">На первых этапах мы работали со страхами и сомнениями, которые часто испытывают новички. Один из них — страх перед чистым листом. Это, конечно же, намного сложнее, чем боязнь куска бумаги. Часто за этим ощущением скрываются более глубокие вопросы: с чего начать? а вдруг будет слишком сложно? что, если я не справлюсь?</p>
+                <p class="card__subtitle">Место для ваших воспоминаний о начале первого спринта.</p>
+              </div>
+              <div class="button">
+                <button type="button" class="button__heart"><svg class="heart like-icon"><use href="./svg/animation1_frame1.svg#heart"></use></svg></button>
+                <button type="button" class="button__like"><span class="button__text">Like</span></button>
+              </div>
+            </div>
+        </article>
       </li>
-      <li class="content__item mobdevice-width">
-        <h2 class="content__header">1 спринт: А если не получится?</h2>
-        <div class="content__image">
-          <img src="./images/questionvan.png" alt="Фургон в 8 битной графике" class="content__van">
-          <p class="content__label">Попытка закончить</p>
-        </div>
-        <div class="content__block">
-         <p class="content__subtitle">Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться ожиданием провала. Или вы, наоборот, могли вдохновиться успехами и поверить в себя.</p>
-         <p class="content__subtitle">Место для ваших воспоминаний об окончании первого спринта.</p>
-         <div class="content__push">
-          <svg xmlns="http://www.w3.org/2000/svg" class="content__icon like-icon" width="27" height="24" fill="none"><path fill="#000" d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/></svg>
-          <button type="button" class="card__like-button content__button"><span class="button__text">Like</span></button>
-          </div>
-        </div>
+      <li class="content__item mobile-width">
+        <article class="card">
+          <h2 class="card__title">1 спринт: А если не получится?</h2>
+            <div class="card__wrapper">
+              <p class="card__label">Может уйти?</p>
+              <img src="./images/questionvan.png" alt="Изображение фургона в виде 8 бит" class="card__image card__image_question">
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p class="card__subtitle">Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться ожиданием провала. Или вы, наоборот, могли вдохновиться успехами и поверить в себя.</p>
+                <p class="card__subtitle">Место для ваших воспоминаний об окончании первого спринта.</p>
+              </div>
+              <div class="button">
+                <button type="button" class="button__heart"><svg class="heart like-icon"><use href="./svg/animation1_frame1.svg#heart"></use></svg></button>
+                <button type="button" class="button__like"><span class="button__text">Like</span></button>
+              </div>
+            </div>
+        </article>
       </li>
-      <li class="content__item mobdevice-width">
-        <h2 class="content__header">2 спринт: Погоня за идеалом</h2>
-        <div class="content__image">
-          <img src="./images/runvan-min.png" alt="Фургон в 8 битной графике" class="content__van">
-          <p class="content__label">Все до пикселя</p>
-        </div>
-        <div class="content__block">
-         <p class="content__subtitle">На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять, как много ещё впереди. Вы могли попытаться погнаться за идеалом и понять, что он недостижим. А, может, вы вовсе и не подвержены перфекционизму и вместо того, чтобы сделать идеально, старались просто сделать.</p>
-         <p class="content__subtitle">Место для ваших воспоминаний о начале второго спринта.</p>
-         <div class="content__push">
-          <svg xmlns="http://www.w3.org/2000/svg" class="content__icon like-icon" width="27" height="24" fill="none"><path fill="#000" d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/></svg>
-          <button type="button" class="card__like-button content__button"><span class="button__text">Like</span></button>
-          </div>
-        </div>
+      <li class="content__item mobile-width">
+        <article class="card">
+          <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
+            <div class="card__wrapper">
+              <p class="card__label">Должен сделать все</p>
+              <img src="./images/runvan-min.png" alt="Изображение фургона в виде 8 бит" class="card__image card__image_run">
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p class="card__subtitle">На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять, как много ещё впереди. Вы могли попытаться погнаться за идеалом и понять, что он недостижим. А, может, вы вовсе и не подвержены перфекционизму и вместо того, чтобы сделать идеально, старались просто сделать.</p>
+                <p class="card__subtitle">Место для ваших воспоминаний о начале второго спринта.</p>
+              </div>
+              <div class="button">
+                <button type="button" class="button__heart"><svg class="heart like-icon"><use href="./svg/animation1_frame1.svg#heart"></use></svg></button>
+                <button type="button" class="button__like"><span class="button__text">Like</span></button>
+              </div>
+            </div>
+        </article>
       </li>
-      <li class="content__item mobdevice-width">
-        <h2 class="content__header">2 спринт: О тех, кто рядом</h2>
-        <div class="content__image">
-          <img src="./images/aboutvan-min.png" alt="Фургон в 8 битной графике" class="content__van">
-          <p class="content__label">Необходимость в помощи</p>
-        </div>
-        <div class="content__block">
-         <p class="content__subtitle">Всё это время вы были не одиноки (хотя, возможно, иногда и чувствовали, что одни против целого мира). Вас окружали одногруппники, команда сопровождения и просто близкие люди, которым можно пожаловаться, если очередной макет просто так не поддавался. Осваивать что-то новое легче, когда рядом есть единомышленники, не правда ли?</p>
-         <p class="content__subtitle">Место для ваших воспоминаний об окончании второго спринта.</p>
-         <div class="content__push">
-          <svg xmlns="http://www.w3.org/2000/svg" class="content__icon like-icon" width="27" height="24" fill="none"><path fill="#000" d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/></svg>
-          <button type="button" class="card__like-button content__button"><span class="button__text">Like</span></button>
-          </div>
-        </div>
+      <li class="content__item mobile-width">
+        <article class="card">
+          <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
+            <div class="card__wrapper">
+              <p class="card__label">Благодарность</p>
+              <img src="./images/aboutvan-min.png" alt="Изображение фургона в виде 8 бит" class="card__image">
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p class="card__subtitle">Всё это время вы были не одиноки (хотя, возможно, иногда и чувствовали, что одни против целого мира). Вас окружали одногруппники, команда сопровождения и просто близкие люди, которым можно пожаловаться, если очередной макет просто так не поддавался. Осваивать что-то новое легче, когда рядом есть единомышленники, не правда ли?</p>
+                <p class="card__subtitle">Место для ваших воспоминаний об окончании второго спринта.</p>
+              </div>
+              <div class="button">
+                <button type="button" class="button__heart"><svg class="heart like-icon"><use href="./svg/animation1_frame1.svg#heart"></use></svg></button>
+                <button type="button" class="button__like"><span class="button__text">Like</span></button>
+              </div>
+            </div>
+        </article>
       </li>
-      <li class="content__item mobdevice-width">
-        <h2 class="content__header">3 спринт: Обходные стратегии</h2>
-        <div class="content__image">
-          <img src="./images/strategyvan-min.png" alt="Фургон в 8 битной графике" class="content__van">
-          <p class="content__label">Попытки найти решения</p>
-        </div>
-        <div class="content__block">
-         <p class="content__subtitle">На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло показаться, что решения просто иссякли. Значит, пришло время посмотреть на задачу под другим углом.</p>
-         <p class="content__subtitle">Место для ваших воспоминаний о начале третьего спринта.</p>
-         <div class="content__push">
-          <svg xmlns="http://www.w3.org/2000/svg" class="content__icon like-icon" width="27" height="24" fill="none"><path fill="#000" d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/></svg>
-          <button type="button" class="card__like-button content__button"><span class="button__text">Like</span></button>
-          </div>
-        </div>
+      <li class="content__item mobile-width">
+        <article class="card">
+          <h2 class="card__title">3 спринт: Обходные стратегии</h2>
+            <div class="card__wrapper">
+              <p class="card__label">Все сначала, все сначала</p>
+              <img src="./images/strategyvan-min.png" alt="Изображение фургона в виде 8 бит" class="card__image card__image_strategy">
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p class="card__subtitle">На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло показаться, что решения просто иссякли. Значит, пришло время посмотреть на задачу под другим углом.</p>
+                <p class="card__subtitle">Место для ваших воспоминаний о начале третьего спринта.</p>
+              </div>
+              <div class="button">
+                <button type="button" class="button__heart"><svg class="heart like-icon"><use href="./svg/animation1_frame1.svg#heart"></use></svg></button>
+                <button type="button" class="button__like"><span class="button__text">Like</span></button>
+              </div>
+            </div>
+        </article>
       </li>
-      <li class="content__item mobdevice-width">
-        <h2 class="content__header">3 спринт: Когда опускаются руки</h2>
-        <div class="content__image">
-          <img src="./images/whenvan-min.png" alt="Фургон в 8 битной графике" class="content__van">
-          <p class="content__label">Желание сдаться</p>
-        </div>
-        <div class="content__block">
-         <p class="content__subtitle">Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. Вроде и проектную пора сдавать, и задачи хочется порешать, и в теории получше разобраться, и жизнь не забыть пожить. В такие моменты очень нужна концентрация. Вспомните, откуда вы её черпали.</p>
-         <p class="content__subtitle">Место для ваших воспоминаний об окончании третьего спринта.</p>
-         <div class="content__push">
-          <svg xmlns="http://www.w3.org/2000/svg" class="content__icon like-icon" width="27" height="24" fill="none"><path fill="#000" d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/></svg>
-          <button type="button" class="card__like-button content__button"><span class="button__text">Like</span></button>
-          </div>
-        </div>
+      <li class="content__item mobile-width">
+        <article class="card">
+          <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
+            <div class="card__wrapper">
+              <p class="card__label">Неудачи</p>
+              <img src="./images/whenvan-min.png" alt="Изображение фургона в виде 8 бит" class="card__image card__image_when">
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p class="card__subtitle">Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. Вроде и проектную пора сдавать, и задачи хочется порешать, и в теории получше разобраться, и жизнь не забыть пожить. В такие моменты очень нужна концентрация. Вспомните, откуда вы её черпали.</p>
+                <p class="card__subtitle">Место для ваших воспоминаний об окончании третьего спринта.</p>
+              </div>
+              <div class="button">
+                <button type="button" class="button__heart"><svg class="heart like-icon"><use href="./svg/animation1_frame1.svg#heart"></use></svg></button>
+                <button type="button" class="button__like"><span class="button__text">Like</span></button>
+              </div>
+            </div>
+        </article>
       </li>
-      <li class="content__item mobdevice-width">
-        <h2 class="content__header">«Сейчас я здесь»</h2>
-        <div class="content__image">
-          <img src="./images/nowvan-min.png" alt="Фургон в 8 битной графике" class="content__van">
-          <p class="content__label">Во многом сомневаюсь</p>
-        </div>
-        <div class="content__block">
-         <p class="content__subtitle">Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых, впереди ещё много материала про «красотищу». Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И этот мир постоянно меняется. Познать его полностью не получится, но это тот случай, когда важен сам процесс познания. Ведь часто путь — и есть результат.</p>
-         <p class="content__subtitle">Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.</p>
-         <div class="content__push">
-          <svg xmlns="http://www.w3.org/2000/svg" class="content__icon like-icon" width="27" height="24" fill="none"><path fill="#000" d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/></svg>
-          <button type="button" class="card__like-button content__button"><span class="button__text">Like</span></button>
-          </div>
-        </div>
+      <li class="content__item mobile-width">
+        <article class="card">
+          <h2 class="card__title">«Сейчас я здесь»</h2>
+            <div class="card__wrapper">
+              <p class="card__label">Сомнения в себе</p>
+              <img src="./images/nowvan-min.png" alt="Изображение фургона в виде 8 бит" class="card__image card__image_now">
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p class="card__subtitle">Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых, впереди ещё много материала про «красотищу». Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И этот мир постоянно меняется. Познать его полностью не получится, но это тот случай, когда важен сам процесс познания. Ведь часто путь — и есть результат.</p>
+                <p class="card__subtitle">Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.</p>
+              </div>
+              <div class="button">
+                <button type="button" class="button__heart"><svg class="heart like-icon"><use href="./svg/animation1_frame1.svg#heart"></use></svg></button>
+                <button type="button" class="button__like"><span class="button__text">Like</span></button>
+              </div>
+            </div>
+        </article>
       </li>
     </ul>
   </main>
   <footer class="footer">
-    <button class="footer__button" type="submit" onclick="window['modal'].showModal()">
-      <svg viewBox="0 0 21 21" class="footer__floppy">
-        <use href="./svg/floppy.svg#floppy"></use>
+    <button class="footer__button" type="button" onclick="window['dialog'].showModal()">
+      <svg viewBox="0 0 29 29" class="footer__floppy">
+        <use class="floppy" href="./svg/floppy.svg#floppy"></use>
       </svg>
-      Сохранить на память
-    </button>
-    <dialog class="modal" id="modal" aria-label="Предложение вставить дискету и продолжить">
-      <div class="modal__content">
-        <svg viewBox="0 0 21 21" class="modal__floppy">
-          <use href="./svg/floppy.svg#floppy"></use>
+      <p class="footer__subtitle">Сохранить на память</p>
+    </button>  
+    <dialog class="dialog" aria-label="Сохранить на память" id="dialog">
+      <div class="dialog__content">
+        <svg viewBox="0 0 39 39"class="dialog__floppy">
+          <use href="./svg/floppy2.svg#dialog__floppy"></use>
         </svg>
-        <h3 class="modal__title">Вставьте дискету, чтобы продолжить</h3>
+        <p class="dialog__subtitle">Вставьте дискету, чтобы продолжить</p>
       </div>
-      <button type="submit" class="modal__button" onclick="window['modal'].close()">ок</button>
-    </dialog>  
+      <button class="dialog__button" type="submit" onclick="window['dialog'].close()">ок</button>
+    </dialog>
   </footer>
-  <script src="./scripts/like.js"></script>
-</body>
-
-</html>
+  </body>
+  </html>

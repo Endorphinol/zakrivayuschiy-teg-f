@@ -1,13 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
---main-font: 'Inter Veriable';
+--main-font: 'Inter', sans-serif;
 --accent-font: 'Press Start 2P';
---weight-400: 400;
---weight-700: 700;
---width-mobile: 100vw;
+--main-weight-400: 400;
+--main-weight-700: 700;
+--mobile-width: 100vw;
 --color-black: rgb(0 0 0);
---color-white: rgb(255 255 255 / 0.5);
+--color-white: rgb(255 255 255);
 --clamp-title: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
+--clamp-width: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
 --clamp-subtitle: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
+--clamp-header-x: clamp(0.875rem, -9.655rem + 44.93vw, 30.781rem);
+--clamp-header-y: clamp(13.875rem, 13.699rem + 0.751vw, 14.375rem);
+--clamp-card-subtitle: clamp(20.063rem, 12.91rem + 30.516vw, 40.375rem);
+--background-gradient: repeating-linear-gradient(to left, #d3d3d3 2px, transparent 2px),
+
+repeating-linear-gradient(#d3d3d3 2px, transparent 2px),
+repeating-linear-gradient(#e7e7e7 0.01%, #1a1a1a);
 }
