@@ -1,6 +1,6 @@
 
 <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<symbol id="floppy">
+<symbol id="floppy" class="floppy">
 <rect width="1.61538" height="1.61538" fill="black"/>
 <rect y="1.61523" width="1.61538" height="1.61538" fill="black"/>
 <rect y="3.23096" width="1.61538" height="1.61538" fill="black"/>
