@@ -9,3 +9,148 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+@keyframes scale {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.25;
+  }
+}
+
+@keyframes sparks {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.button__heart {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  align-self: flex-end;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+.heart {
+  animation-name: fill;
+  animation-delay: 0.1s;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+}
+
+.core {
+  transition: fill 0.3s;
+  fill: transparent;
+}
+
+.main-body {
+  transition: fill 0.3s 0.05s;
+  fill: transparent;
+}
+
+.sparks {
+  transition: fill 0.3s 0.06s;
+  opacity: 0;
+}
+
+.contour {
+  transition-delay: 0.06s;
+  transition: all 0.3s;
+}
+
+.like-icon.is-liked .sparks {
+  animation-name: sparks;
+  animation-duration: 0.3s;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+
+.like-icon.is-liked .heart {
+  animation-name: scale;
+  animation-duration: 0.3s;
+  animation-delay: 0.1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+}
+
+.button__heart:hover .core {
+  transition-delay: 0.03s;
+  fill: var(--contur-heart-color);
+}
+
+.button__heart:hover .main-body {
+  transition-duration: 0.3s;
+  fill: var(--contur-heart-color);
+}
+
+.button__heart:active .core {
+  fill: var(--fill-heart-color);
+}
+
+.button__heart:active .main-body {
+  fill: var(--fill-heart-color);
+}
+
+.button__heart:active .contour {
+  fill: var(--fill-heart-color);
+}
+
+.button__heart .contour {
+  transition: fill 0.1s 0s linear;
+}
+
+.like-icon.is-liked .contour,
+.like-icon.is-liked .main-body,
+.like-icon.is-liked .core {
+  fill: var(--fill-heart-color);
+}
+
+
+.button__heart:focus {
+  outline: none;
+}
+
+.button__heart:focus-visible {
+  outline: none;
+  border: 2px solid var(--color-black);
+  height: 38px;
+}
+
+.button__like {
+  background-color: var(--color-white);
+  position: relative;
+  width: 130px;
+  height: 38px;
+  padding: 9px 17px 9px 17px;
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.button__like:focus {
+  outline: none;
+  box-shadow: 2px 2px 0 var(--color-black);
+}
+
+.button__like::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: scaleX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.button__like:hover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: scaleX(1);
+  background-color: var(--color-black);
+  transform-origin: left center;
+}

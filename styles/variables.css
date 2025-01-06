@@ -11,8 +11,9 @@
 --contur-heart-color: #000;
 --fill-heart-color: #FF0000;
 --clamp-title: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
---clamp-width: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
---clamp-subtitle: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
+--width-title: clamp(0rem, -31.6901rem + 135.2113vw, 90rem);
+--clamp-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+--clamp-subtitle: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 --clamp-header-x: clamp(0.875rem, -9.655rem + 44.93vw, 30.781rem);
 --clamp-header-y: clamp(13.875rem, 13.699rem + 0.751vw, 14.375rem);
 --clamp-card-subtitle: clamp(20.063rem, 12.91rem + 30.516vw, 40.375rem);

@@ -9,23 +9,6 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
-
-@keyframes scale {
-  from {
-    transform: scaleX(1);
-  }
-  to {
-    trasform: scaleX(1.25);
-  }
-}
-
-@keyframes sparks {
-  to {
-    opacity: 1;
-  }
-}
-
-
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
@@ -34,7 +17,6 @@
   background-size: cover;
   background-image: var(--background-gradient);
   background-attachment: fixed;
-
 }
 
 .mobile-width {
@@ -46,7 +28,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: var(--clamp-width);
+  width: var(--width-title);
   padding-inline-start: var(--clamp-header-x);
   padding-inline-end: var(--clamp-header-x);
   padding-block-start: var(--clamp-header-y);
@@ -150,15 +132,7 @@
 }
 
 .card__image {
-  width: 700px;
-  height: 700px;
-}
-
-@media (width <= 375px) {
-  .card__image {
-    width: 375px;
-    height: 375px;
-  }
+  width: var(--clamp-width);
 }
 
 .button {
@@ -169,136 +143,7 @@
   padding-block-end: 25px;
   column-gap: 6px;
 }
-
-.button__heart {
-  background-color: transparent;
-  border: 0;
-  padding: 0;
-  align-self: flex-end;
-  cursor: pointer;
-  transition: border 0.3s ease;
-
-}
-
-.heart {
-  animation-name: fill;
-  animation-delay: 0.1s;
-  animation-duration: 0.3s;
-  animation-timing-function: ease-in;
-  animation-iteration-count: 1;
-}
-
-.core {
-  transition: fill 0.3s;
-  fill: transparent;
-}
-
-.main-body {
-  transition: fill 0.3s 0.05s;
-  fill: transparent;
-}
-
-.contour {
-  fill: transparent;
-  transition: fill 0.3s 0.06s;
-}
-
-.sparks {
-  fill: transparent;
-  transition: fill 0.3s 0.06s;
-  animation-name: sparks;
-  animation-duration: 0.3s;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-}
-
-.button__heart:hover .core {
-  transition-delay: 0.03s;
-  fill: var(--contur-heart-color);
-}
-
-.button__heart:hover .main-body {
-  transition-duration: 0.3s;
-  fill: var(--contur-heart-color);
-}
-
-.button__heart:active .core {
-  transition-delay: 0.03s;
-  fill: var(--fill-heart-color);
-}
-
-.button__heart:active .main-body {
-  transition-duration: 0.3s;
-  fill: var(--fill-heart-color);
-}
-
-.like-icon.is-liked .core {
-  transition-duration: 0.3s;
-  fill: var(--fill-heart-color);
-}
-
-.like-icon.is-liked .main-body {
-  transition-duration: 0.3s;
-  fill: var(--fill-heart-color);
-}
-
-.like-icon.is-liked .contour {
-  transition-duration: 0.3s;
-  fill: var(--fill-heart-color);
-}
-
-.like-icon.is-liked .sparks {
-  transition-duration: 0.3s;
-  fill: var(--fill-heart-color);
-}
-
-.button__heart:focus {
-  outline: none;
-}
-
-.button__heart:focus-visible {
-  outline: none;
-  border: 2px solid var(--color-black);
-  height: 38px;
-}
-
-.sparks {
-  opacity: 0;
-}
-
-.button__like {
-  background-color: var(--color-white);
-  position: relative;
-  width: 130px;
-  height: 38px;
-  padding: 9px 17px 9px 17px;
-  transition: transform 0.5s ease-in-out;
-  cursor: pointer;
-}
-
-.button__like:focus {
-  outline: none;
-  box-shadow: 2px 2px 0 var(--color-black);
-}
-
-.button__like::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  transform: scaleX(0);
-  transition: transform 0.5s ease-in-out;
-}
-
-.button__like:hover::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  transform: scaleX(1);
-  background-color: var(--color-black);
-  transform-origin: left center;
-}
-
+  
 .button__text {
   text-align: center;
   font-family: var(--accent-font);
@@ -327,7 +172,6 @@
 @media (width <= 375px) {
   .footer__button {
     flex-direction: column;
-
   }
 }
 
@@ -353,7 +197,6 @@
     width: 39px;
   }
 }
-
 .footer__button {
   display: flex;
   width: 335px;
