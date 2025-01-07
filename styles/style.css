@@ -24,19 +24,27 @@
 }
 
 .header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: var(--width-title);
   padding-inline-start: var(--clamp-header-x);
   padding-inline-end: var(--clamp-header-x);
   padding-block-start: var(--clamp-header-y);
   padding-block-end: var(--clamp-header-y);
   font-family: var(--accent-font), fantasy;
+  margin: 0 auto;
+}
+
+.header__border {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   row-gap: 20px;
   text-transform: uppercase;
-  margin: 0 auto;
+  padding-inline-start: var(--clamp-border-x);
+  padding-inline-end: var(--clamp-border-x);
+  padding-block-start: var(--clamp-border-y);
+  padding-block-end: var(--clamp-border-y);
+  border: 2px solid var(--color-black, rgb(0 0 0));
 }
 
 @media (width <= 375px) {
@@ -122,7 +130,7 @@
 
 @media (width <= 375px) {
   .card__label {
-    top: 22px;
+    top: 25px;
     right: 13px;
   }
 }
