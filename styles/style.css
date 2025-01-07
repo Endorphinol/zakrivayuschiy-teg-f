@@ -129,7 +129,7 @@
 
 .card__subtitle {
   width: var(--clamp-card-subtitle);
-  filter: drop-shadow(2px 2px 2px var(--color-black, rgb(0 0 0)));
+  filter: drop-shadow(2px 2px 5px var(--color-black, rgb(0 0 0)));
 }
 
 .card__image {
