@@ -264,7 +264,7 @@ body:has(dialog[open]) {
 }
 
 .filter-invert {
-  filter: invert(105%);
+  filter: invert(25%);
 }
 
 .filter-grayscale {
@@ -272,7 +272,7 @@ body:has(dialog[open]) {
 }
 
 .filter-saturate {
-  filter: saturate(10.5);
+  filter: saturate(0.5);
 }
 
 .filter-hue {
@@ -280,7 +280,7 @@ body:has(dialog[open]) {
 }
 
 .filter-brigthness {
-  filter: brightness(1);
+  filter: brightness(60%);
 }
 
 .filter-blur {
