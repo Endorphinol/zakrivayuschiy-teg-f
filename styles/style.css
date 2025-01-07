@@ -320,7 +320,7 @@ body:has(dialog[open]) {
 }
 
 .card__image_when {
-  filter: contrast(50%);
+  filter: contrast(50%) hue-rotate(200deg);
 }
 
 .card__image_now {
