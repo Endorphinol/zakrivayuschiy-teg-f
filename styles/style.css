@@ -33,7 +33,7 @@
   padding-inline-end: var(--clamp-header-x);
   padding-block-start: var(--clamp-header-y);
   padding-block-end: var(--clamp-header-y);
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   row-gap: 20px;
   text-transform: uppercase;
   margin: 0 auto;
@@ -69,9 +69,8 @@
 }
 
 .card__content {
-  border: 2px solid var(--color-black);
+  border: 2px solid var(--color-black, rgb(0 0 0));
   width: var(--clamp-width);
-  margin-top: -8px;
 }
 
 .card__text {
@@ -79,15 +78,15 @@
   flex-direction: column;
   row-gap: 27px;
   line-height: 21px;
-  padding: 25px;
-  font-family: var(--main-font);
+  padding: 23px;
+  font-family: var(--main-font), sans-serif;
   font-size: 18px;
 }
 
 .card__title {
-  border: 2px solid var(--color-black);
+  border: 2px solid var(--color-black, rgb(0 0 0));
   padding: 3px 10px 4px 10px;
-  font-family: var(--main-font);
+  font-family: var(--main-font), sans-serif;
   font-size: 18px;
   width: var(--clamp-width);
   font-variation-settings: "wght" 700;
@@ -95,18 +94,19 @@
 
 .card__wrapper {
   position: relative;
+  height: var(--clamp-width);
 }
 
 .card__label {
   position: absolute;
   top: 25px;
   right: 27px;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   line-height: 14px;
   mix-blend-mode: hard-light;
-  text-shadow: 1px solid var(--color-white);
-  z-index: 1  ;
+  text-shadow: 1px solid var(--color-white, rgb(255 255 255));
+  z-index: 1;
 }
 
 @supports (
@@ -114,8 +114,8 @@
     (-webkit-text-stroke: 1px rgb(255 255 255))
 ) {
   .card__label {
-    -webkit-text-stroke: 1px var(--color-white);
-    text-stroke: 1px var(--color-white);
+    -webkit-text-stroke: 1px var(--color-white, rgb(255 255 255));
+    text-stroke: 1px var(--color-white, rgb(255 255 255));
     text-shadow: none;
   }
 }
@@ -129,14 +129,14 @@
 
 .card__subtitle {
   width: var(--clamp-card-subtitle);
-  filter: drop-shadow(0px 0px 1px var(--color-black));
+  filter: drop-shadow(2px 2px 2px var(--color-black, rgb(0 0 0)));
 }
 
 .card__image {
   width: var(--clamp-width);
 }
 
-.button {
+.buttons {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -144,28 +144,20 @@
   padding-block-end: 25px;
   column-gap: 6px;
 }
-  
+
 .button__text {
   text-align: center;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   position: relative;
-  color: var(--color-white);
+  color: var(--color-white, rgb(255 255 255));
   mix-blend-mode: difference;
   z-index: 1;
   display: flex;
   flex-direction: column;
-  align-self: center;
-  
 }
 
-@media (width <= 375px) {
-  .footer__button {
-    flex-direction: column;
-  }
-}
-
-.footer {
+.dialog {
   padding-top: 51px;
   display: flex;
   justify-content: center;
@@ -173,91 +165,67 @@
   padding-bottom: 100px;
 }
 
-.footer__floppy {
+.dialog__floppy {
   height: 21px;
   width: 21px;
   align-self: center;
-  background-color: var(--color-white);
-  mix-blend-mode: difference;
+  mix-blend-mode: hard-light;
+  background-color: var(--color-white, rgb(255 255 255));
 }
 
 @media (width <= 375px) {
-  .footer__floppy {
+  .dialog__floppy {
     height: 39px;
     width: 39px;
   }
 }
-.footer__button {
+.dialog__button {
   display: flex;
-  width: 335px;
-  height: 55px;
-  border: 2px solid var(--color-black);
-  background-color: var(--color-white);
-  align-self: center;
+  width: 340px;
+  height: 54px;
+  border: 2px solid var(--color-black, rgb(0 0 0));
+  background-color: var(--color-white, rgb(255 255 255));
   position: relative;
   justify-content: space-evenly;
   cursor: pointer;
 }
 
-.footer__button:focus {
-  outline: none;
-  box-shadow: 2px 2px 0 var(--color-black);
-}
-
-.footer__button::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  transform: scaleX(0);
-  transition: transform 0.5s ease-in-out;
-}
-
-.footer__button:hover::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  transform: scaleX(1);
-  background-color: var(--color-black);
-  transform-origin: left center;
-}
-
 @media (width <= 375px) {
-  .footer__button {
-    width: 311px;
-    height: 85px;
+  .dialog__button {
+    width: 306px;
+    height: 84px;
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
     padding-left: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 6px;
   }
 }
 
 @media (width <= 375px) {
-  .footer__floppy {
+  .dialog__floppy {
     width: 28px;
     height: 28px;
   }
 }
 
-.footer__subtitle {
-  font-family: var(--accent-font);
+.dialog__subtitle {
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   line-height: 12.6px;
   align-self: center;
 }
 
-.dialog[open] {
+.modal[open] {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-width: 353px;
-  min-height: 191px;
   padding: 30px;
 }
 
-dialog[open]::backdrop {
+.modal[open]::backdrop {
   background-color: rgb(0 0 0 / 75%);
 }
 
@@ -265,20 +233,20 @@ body:has(dialog[open]) {
   overflow: hidden;
 }
 
-.dialog__content {
+.modal__content {
   display: flex;
   width: 100%;
   align-items: center;
   padding-bottom: 30px;
 }
 
-.dialog__floppy {
+.modal__floppy {
   height: 40px;
   width: 40px;
 }
 
-.dialog__subtitle {
-  font-family: var(--accent-font);
+.modal__subtitle {
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   line-height: 21px;
   max-width: 234px;
@@ -286,43 +254,43 @@ body:has(dialog[open]) {
   padding-left: 20px;
 }
 
-.dialog__button {
+.modal__button {
   text-transform: uppercase;
   background-color: transparent;
   width: 293px;
   height: 38px;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   cursor: pointer;
 }
 
-.card__image_filter {
+.filter-invert {
   filter: invert(105%);
 }
 
-.card__image_preparing {
+.filter-grayscale {
   filter: grayscale(50%);
 }
 
-.card__image_list {
+.filter-saturate {
   filter: saturate(10.5);
 }
 
-.card__image_question {
+.filter-hue {
   filter: hue-rotate(156deg);
 }
 
-.card__image_run {
-  filter: brightness(5);
+.filter-brigthness {
+  filter: brightness(1);
 }
 
-.card__image_strategy {
+.filter-blur {
   filter: blur(4px);
 }
 
-.card__image_when {
+.filter-contrast-hue {
   filter: contrast(50%) hue-rotate(200deg);
 }
 
-.card__image_now {
+.filter-sepia {
   filter: sepia(40%);
 }

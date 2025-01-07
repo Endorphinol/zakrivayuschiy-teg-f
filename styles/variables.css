@@ -17,7 +17,7 @@
 --clamp-header-x: clamp(0.875rem, -9.655rem + 44.93vw, 30.781rem);
 --clamp-header-y: clamp(13.875rem, 13.699rem + 0.751vw, 14.375rem);
 --clamp-card-subtitle: clamp(20.063rem, 12.91rem + 30.516vw, 40.375rem);
---background-gradient: repeating-linear-gradient(90deg, #d3d3d3 2px, transparent 2px),
-repeating-linear-gradient(#d3d3d3 2px, transparent 2px),
-repeating-linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+--background-gradient: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+repeating-linear-gradient(#e7e7e7 0,01%,#1a1a1a);
 }
