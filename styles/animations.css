@@ -112,7 +112,6 @@
   fill: var(--fill-heart-color);
 }
 
-
 .button__heart:focus {
   outline: none;
 }

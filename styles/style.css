@@ -122,6 +122,7 @@
 
 @media (width <= 375px) {
   .card__label {
+    top: 22px;
     right: 13px;
   }
 }
@@ -138,7 +139,7 @@
 .button {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
   padding-inline-end: 25px;
   padding-block-end: 25px;
   column-gap: 6px;
@@ -156,17 +157,6 @@
   flex-direction: column;
   align-self: center;
   
-}
-
-.footer__button {
-  display: flex;
-  width: 335px;
-  height: 51px;
-  border: 2px solid var(--color-black);
-  background-color: transparent;
-  align-self: center;
-  justify-content: space-around;
-  cursor: pointer;
 }
 
 @media (width <= 375px) {
@@ -200,12 +190,12 @@
 .footer__button {
   display: flex;
   width: 335px;
-  height: 51px;
+  height: 55px;
   border: 2px solid var(--color-black);
   background-color: var(--color-white);
   align-self: center;
   position: relative;
-  justify-content: space-around;
+  justify-content: space-evenly;
   cursor: pointer;
 }
 
