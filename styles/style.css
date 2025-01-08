@@ -110,7 +110,7 @@
   font-size: 14px;
   line-height: 14px;
   mix-blend-mode: hard-light;
-  text-shadow: 1px solid var(--color-white, rgb(255 255 255));
+  text-shadow: 1px 1px var(--color-white, rgb(255 255 255));
   z-index: 1;
 }
 

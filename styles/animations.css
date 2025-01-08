@@ -27,7 +27,7 @@
   }
 }
 
-.button__heart {
+.buttons__heart {
   background-color: transparent;
   border: 0;
   padding: 0;
@@ -148,7 +148,7 @@
   height: 38px;
 }
 
-.button__like {
+.buttons__like {
   background-color: var(--color-white, rgb(255 255 255));
   position: relative;
   width: 130px;
