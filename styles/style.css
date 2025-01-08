@@ -10,8 +10,6 @@
 
 */
 .page {
-  min-inline-size: 320px;
-  min-block-size: 100dvb;
   font-family: var(--main-font), sans-serif;
   font-variation-settings: "wght" var(--main-weight-400);
   background-size: cover;
@@ -19,18 +17,12 @@
   background-attachment: fixed;
 }
 
-.mobile-width {
-  width: var(--mobile-width);
-}
-
 .header {
-  width: var(--width-title);
   padding-inline-start: var(--clamp-header-x);
   padding-inline-end: var(--clamp-header-x);
   padding-block-start: var(--clamp-header-y);
   padding-block-end: var(--clamp-header-y);
   font-family: var(--accent-font), fantasy;
-  margin: 0 auto;
 }
 
 .header__border {
@@ -40,16 +32,21 @@
   align-items: center;
   row-gap: 20px;
   text-transform: uppercase;
-  padding-inline-start: var(--clamp-border-x);
-  padding-inline-end: var(--clamp-border-x);
-  padding-block-start: var(--clamp-border-y);
-  padding-block-end: var(--clamp-border-y);
+  padding-inline-start: var(--clamp-border-x-700);
+  padding-inline-end: var(--clamp-border-x-700);
+  padding-block-start: var(--clamp-border-y-700);
+  padding-block-end: var(--clamp-border-y-700);
   border: 2px solid var(--color-black, rgb(0 0 0));
+  width: var(--clamp-width);
+  margin: 0 auto;
 }
 
 @media (width <= 375px) {
-  .mobile-width {
-    width: 100vw;
+  .header__border {
+    padding-inline-start: var(--clamp-border-x-375);
+    padding-inline-end:  var(--clamp-border-x-375);
+    padding-block-start: var(--clamp-border-y-375);
+    padding-block-end: var(--clamp-border-y-375);
   }
 }
 
@@ -70,10 +67,8 @@
 .content__item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
-  width: var(--clamp-width);
+  
 }
 
 .card__content {
@@ -166,7 +161,7 @@
 }
 
 .dialog {
-  padding-top: 51px;
+  padding-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;

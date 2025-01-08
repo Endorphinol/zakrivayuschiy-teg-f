@@ -5,7 +5,6 @@
 --accent-font: 'Press Start 2P';
 --main-weight-400: 400;
 --main-weight-700: 700;
---mobile-width: 100vw;
 --color-black: rgb(0 0 0);
 --color-white: rgb(255 255 255);
 --contur-heart-color: #000;
@@ -16,8 +15,10 @@
 --clamp-subtitle: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 --clamp-header-x: clamp(0rem, -8.1426rem + 34.7418vw, 23.125rem);
 --clamp-header-y: clamp(6.25rem, 6.25rem + 0vw, 6.25rem);
---clamp-border-x: clamp(0.875rem, -6.8053rem + 32.7692vw, 7.53125rem);
---clamp-border-y: clamp(7.5rem, 6.9231rem + 2.4615vw, 8rem);
+--clamp-border-x-700: clamp(0.875rem, -6.8053rem + 32.7692vw, 7.53125rem);
+--clamp-border-y-700: clamp(7.5rem, 6.9231rem + 2.4615vw, 8rem);
+--clamp-border-x-375: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
+--clamp-border-y-375: clamp(7.5rem, 7.5rem + 0vw, 7.5rem);
 --clamp-card-subtitle: clamp(20.063rem, 12.91rem + 30.516vw, 40.375rem);
 --background-gradient: repeating-linear-gradient(90deg, #d3d3d3, rgb(211, 211, 211 / 0) 2px ),
 repeating-linear-gradient(#d3d3d3 0, rgb(211, 211, 211 / 0) 2px),
