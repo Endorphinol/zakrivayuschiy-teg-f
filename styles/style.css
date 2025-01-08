@@ -14,8 +14,7 @@
   font-variation-settings: "wght" var(--main-weight-400);
   background-size: cover;
   background-image: var(--background-gradient);
-  background-attachment: fixed;
-  position: relative;
+  background-attachment: fixed; 
 }
 
 .header {
@@ -40,6 +39,7 @@
   border: 2px solid var(--color-black, rgb(0 0 0));
   width: var(--clamp-width);
   margin: 0 auto;
+  background-color: var(--color-white);
 }
 
 @media (width <= 375px) {
@@ -74,6 +74,7 @@
 .card__content {
   border: 2px solid var(--color-black, rgb(0 0 0));
   width: var(--clamp-width);
+  background-color: var(--color-white);
 }
 
 .card__text {
@@ -93,6 +94,7 @@
   font-size: 18px;
   width: var(--clamp-width);
   font-variation-settings: "wght" 700;
+  background-color: var(--color-white);
 }
 
 .card__wrapper {
