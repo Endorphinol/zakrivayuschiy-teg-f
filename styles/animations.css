@@ -43,6 +43,7 @@
   width: 130px;
   height: 38px;
   cursor: pointer;
+  border: 2px solid var(--color-black, rgb(0 0 0));
 }
 
 .heart {
@@ -99,7 +100,7 @@
 }
 
 .buttons__heart:hover .core {
-  fill: var(--contur-heart-color);
+  fill: var(--contur-heart-color, #FF0000);
   transition-property: fill;
   transition-duration: 0.3s;
   transition-timing-function: linear;
@@ -110,7 +111,7 @@
   transition-duration: 0.3s;
   transition-property: fill;
   transition-timing-function: linear;
-  fill: var(--contur-heart-color);
+  fill: var(--contur-heart-color, #FF0000);
 }
 
 .buttons__heart:active .core {
