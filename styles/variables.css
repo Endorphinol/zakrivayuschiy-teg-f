@@ -13,7 +13,7 @@
 --clamp-title: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
 --clamp-subtitle: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 --clamp-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
---clamp-header-x: clamp(0rem, -8.1426rem + 34.7418vw, 23.125rem);
+--clamp-header-x: clamp(0rem, -8.4604rem + 36.0976vw, 23.125rem);
 --clamp-header-y: clamp(6.25rem, 6.25rem + 0vw, 6.25rem);
 --clamp-border-x-700: clamp(0.875rem, -6.8053rem + 32.7692vw, 7.53125rem);
 --clamp-border-y-700: clamp(7.5rem, 6.9231rem + 2.4615vw, 8rem);

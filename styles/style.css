@@ -34,8 +34,6 @@
   row-gap: 20px;
   text-transform: uppercase;
   border: 2px solid var(--color-black, rgb(0 0 0));
-  padding-inline-start: var(--clamp-border-x-700);
-  padding-inline-end:  var(--clamp-border-x-700);
   padding-block-start: var(--clamp-border-y-700);
   padding-block-end: var(--clamp-border-y-700);
   width: var(--clamp-width);
@@ -193,8 +191,8 @@
 }
 .dialog__button {
   display: flex;
-  width: 340px;
-  height: 54px;
+  width: 338px;
+  height: 56px;
   border: 2px solid var(--color-black, rgb(0 0 0));
   background-color: var(--color-white, rgb(255 255 255));
   position: relative;
