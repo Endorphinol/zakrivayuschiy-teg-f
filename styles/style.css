@@ -179,8 +179,7 @@
   height: 21px;
   width: 21px;
   align-self: center;
-  mix-blend-mode: hard-light;
-  background-color: var(--color-white, rgb(255 255 255));
+  mix-blend-mode: difference;
 }
 
 @media (width <= 375px) {

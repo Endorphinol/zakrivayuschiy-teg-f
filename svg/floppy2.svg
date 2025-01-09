@@ -1,84 +1,38 @@
 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <symbol id="dialog__floppy">
-<rect x="0.5" y="0.5" width="3" height="3" fill="black"/>
-<rect x="0.5" y="3.5" width="3" height="3" fill="black"/>
-<rect x="0.5" y="6.5" width="3" height="3" fill="black"/>
-<rect x="0.5" y="9.5" width="3" height="3" fill="black"/>
-<rect x="0.5" y="12.5" width="3" height="3" fill="black"/>
-<rect x="0.5" y="15.5" width="3" height="3" fill="black"/>
-<rect x="0.5" y="18.5" width="3" height="3" fill="black"/>
-<rect x="0.5" y="21.5" width="3" height="3" fill="black"/>
-<rect x="0.5" y="24.5" width="3" height="3" fill="black"/>
-<rect x="0.5" y="27.5" width="3" height="3" fill="black"/>
-<rect x="0.5" y="30.5" width="3" height="3" fill="black"/>
-<rect x="0.5" y="33.5" width="3" height="3" fill="black"/>
-<rect x="0.5" y="36.5" width="3" height="3" fill="black"/>
-<rect x="33.5" y="0.5" width="3" height="3" transform="rotate(90 33.5 0.5)" fill="black"/>
-<rect x="30.5" y="0.5" width="3" height="3" transform="rotate(90 30.5 0.5)" fill="black"/>
-<rect x="27.5" y="0.5" width="3" height="3" transform="rotate(90 27.5 0.5)" fill="black"/>
-<rect x="24.5" y="0.5" width="3" height="3" transform="rotate(90 24.5 0.5)" fill="black"/>
-<rect x="21.5" y="0.5" width="3" height="3" transform="rotate(90 21.5 0.5)" fill="black"/>
-<rect x="18.5" y="0.5" width="3" height="3" transform="rotate(90 18.5 0.5)" fill="black"/>
-<rect x="15.5" y="0.5" width="3" height="3" transform="rotate(90 15.5 0.5)" fill="black"/>
-<rect x="12.5" y="0.5" width="3" height="3" transform="rotate(90 12.5 0.5)" fill="black"/>
-<rect x="9.5" y="0.5" width="3" height="3" transform="rotate(90 9.5 0.5)" fill="black"/>
-<rect x="6.5" y="0.5" width="3" height="3" transform="rotate(90 6.5 0.5)" fill="black"/>
-<rect x="36.5" y="3.5" width="3" height="3" transform="rotate(90 36.5 3.5)" fill="black"/>
-<rect x="9.5" y="6.5" width="3" height="3" transform="rotate(90 9.5 6.5)" fill="black"/>
-<rect x="9.5" y="3.5" width="3" height="3" transform="rotate(90 9.5 3.5)" fill="black"/>
-<rect x="9.5" y="9.5" width="3" height="3" transform="rotate(90 9.5 9.5)" fill="black"/>
-<rect x="30.5" y="6.5" width="3" height="3" transform="rotate(90 30.5 6.5)" fill="black"/>
-<rect x="30.5" y="3.5" width="3" height="3" transform="rotate(90 30.5 3.5)" fill="black"/>
-<rect x="30.5" y="9.5" width="3" height="3" transform="rotate(90 30.5 9.5)" fill="black"/>
-<rect x="24.5" y="6.5" width="3" height="3" transform="rotate(90 24.5 6.5)" fill="black"/>
-<rect x="24.5" y="3.5" width="3" height="3" transform="rotate(90 24.5 3.5)" fill="black"/>
-<rect x="24.5" y="9.5" width="3" height="3" transform="rotate(90 24.5 9.5)" fill="black"/>
-<rect x="30.5" y="12.5" width="3" height="3" transform="rotate(90 30.5 12.5)" fill="black"/>
-<rect x="27.5" y="12.5" width="3" height="3" transform="rotate(90 27.5 12.5)" fill="black"/>
-<rect x="24.5" y="12.5" width="3" height="3" transform="rotate(90 24.5 12.5)" fill="black"/>
-<rect x="21.5" y="12.5" width="3" height="3" transform="rotate(90 21.5 12.5)" fill="black"/>
-<rect x="18.5" y="12.5" width="3" height="3" transform="rotate(90 18.5 12.5)" fill="black"/>
-<rect x="15.5" y="12.5" width="3" height="3" transform="rotate(90 15.5 12.5)" fill="black"/>
-<rect x="12.5" y="12.5" width="3" height="3" transform="rotate(90 12.5 12.5)" fill="black"/>
-<rect x="9.5" y="12.5" width="3" height="3" transform="rotate(90 9.5 12.5)" fill="black"/>
-<rect x="33.5" y="21.5" width="3" height="3" transform="rotate(90 33.5 21.5)" fill="black"/>
-<rect x="30.5" y="21.5" width="3" height="3" transform="rotate(90 30.5 21.5)" fill="black"/>
-<rect x="27.5" y="21.5" width="3" height="3" transform="rotate(90 27.5 21.5)" fill="black"/>
-<rect x="24.5" y="21.5" width="3" height="3" transform="rotate(90 24.5 21.5)" fill="black"/>
-<rect x="21.5" y="21.5" width="3" height="3" transform="rotate(90 21.5 21.5)" fill="black"/>
-<rect x="18.5" y="21.5" width="3" height="3" transform="rotate(90 18.5 21.5)" fill="black"/>
-<rect x="15.5" y="21.5" width="3" height="3" transform="rotate(90 15.5 21.5)" fill="black"/>
-<rect x="12.5" y="21.5" width="3" height="3" transform="rotate(90 12.5 21.5)" fill="black"/>
-<rect x="9.5" y="21.5" width="3" height="3" transform="rotate(90 9.5 21.5)" fill="black"/>
-<rect x="33.5" y="24.5" width="3" height="3" transform="rotate(90 33.5 24.5)" fill="black"/>
-<rect x="9.5" y="24.5" width="3" height="3" transform="rotate(90 9.5 24.5)" fill="black"/>
-<rect x="33.5" y="27.5" width="3" height="3" transform="rotate(90 33.5 27.5)" fill="black"/>
-<rect x="9.5" y="27.5" width="3" height="3" transform="rotate(90 9.5 27.5)" fill="black"/>
-<rect x="33.5" y="30.5" width="3" height="3" transform="rotate(90 33.5 30.5)" fill="black"/>
-<rect x="9.5" y="30.5" width="3" height="3" transform="rotate(90 9.5 30.5)" fill="black"/>
-<rect x="9.5" y="33.5" width="3" height="3" transform="rotate(90 9.5 33.5)" fill="black"/>
-<rect x="33.5" y="33.5" width="3" height="3" transform="rotate(90 33.5 33.5)" fill="black"/>
-<rect x="36.5" y="36.5" width="3" height="3" transform="rotate(90 36.5 36.5)" fill="black"/>
-<rect x="33.5" y="36.5" width="3" height="3" transform="rotate(90 33.5 36.5)" fill="black"/>
-<rect x="30.5" y="36.5" width="3" height="3" transform="rotate(90 30.5 36.5)" fill="black"/>
-<rect x="27.5" y="36.5" width="3" height="3" transform="rotate(90 27.5 36.5)" fill="black"/>
-<rect x="24.5" y="36.5" width="3" height="3" transform="rotate(90 24.5 36.5)" fill="black"/>
-<rect x="21.5" y="36.5" width="3" height="3" transform="rotate(90 21.5 36.5)" fill="black"/>
-<rect x="18.5" y="36.5" width="3" height="3" transform="rotate(90 18.5 36.5)" fill="black"/>
-<rect x="15.5" y="36.5" width="3" height="3" transform="rotate(90 15.5 36.5)" fill="black"/>
-<rect x="12.5" y="36.5" width="3" height="3" transform="rotate(90 12.5 36.5)" fill="black"/>
-<rect x="9.5" y="36.5" width="3" height="3" transform="rotate(90 9.5 36.5)" fill="black"/>
-<rect x="6.5" y="36.5" width="3" height="3" transform="rotate(90 6.5 36.5)" fill="black"/>
-<rect x="39.5" y="39.5" width="3" height="3" transform="rotate(-180 39.5 39.5)" fill="black"/>
-<rect x="39.5" y="36.5" width="3" height="3" transform="rotate(-180 39.5 36.5)" fill="black"/>
-<rect x="39.5" y="33.5" width="3" height="3" transform="rotate(-180 39.5 33.5)" fill="black"/>
-<rect x="39.5" y="30.5" width="3" height="3" transform="rotate(-180 39.5 30.5)" fill="black"/>
-<rect x="39.5" y="27.5" width="3" height="3" transform="rotate(-180 39.5 27.5)" fill="black"/>
-<rect x="39.5" y="24.5" width="3" height="3" transform="rotate(-180 39.5 24.5)" fill="black"/>
-<rect x="39.5" y="21.5" width="3" height="3" transform="rotate(-180 39.5 21.5)" fill="black"/>
-<rect x="39.5" y="18.5" width="3" height="3" transform="rotate(-180 39.5 18.5)" fill="black"/>
-<rect x="39.5" y="15.5" width="3" height="3" transform="rotate(-180 39.5 15.5)" fill="black"/>
-<rect x="39.5" y="12.5" width="3" height="3" transform="rotate(-180 39.5 12.5)" fill="black"/>
-<rect x="39.5" y="9.5" width="3" height="3" transform="rotate(-180 39.5 9.5)" fill="black"/>
+  <symbol id="floppy">
+  <path fill="var(--color-white)" d="M0 0h1.61538v1.61538H0z"/>
+  <path fill="var(--color-white)" d="M0 1.61523h1.61538v1.61538H0zm0 1.61573h1.61538v1.61538H0z"/>
+  <path fill="var(--color-white)" d="M0 4.84619h1.61538v1.61538H0z"/>
+  <path fill="var(--color-white)" d="M0 6.46143h1.61538v1.61538H0zm0 1.61572h1.61538v1.61538H0z"/>
+  <path fill="var(--color-white)" d="M0 9.69238h1.61538v1.61538H0z"/>
+  <path fill="var(--color-white)" d="M0 11.3076h1.61538v1.61538H0z"/>
+  <path fill="var(--color-white)" d="M0 12.9229h1.61538v1.61538H0zm0 1.6157h1.61538v1.61538H0z"/>
+  <path fill="var(--color-white)" d="M0 16.1538h1.61538v1.61538H0z"/>
+  <path fill="var(--color-white)" d="M0 17.769h1.61538v1.61538H0zm0 1.6158h1.61538v1.61538H0zM17.7692 0v1.61538h-1.61538V0z"/>
+  <path fill="var(--color-white)" d="M16.1539 0v1.61538h-1.61538V0zm-1.6154 0v1.61538h-1.61538V0zm-1.6154 0v1.61538h-1.61538V0zm-1.6154 0v1.61538H9.69232V0zM9.69232 0v1.61538H8.07694V0zM8.0769 0v1.61538H6.46152V0z"/>
+  <path fill="var(--color-white)" d="M6.46155 0v1.61538H4.84617V0zM4.84613 0v1.61538H3.23075V0z"/>
+  <path fill="var(--color-white)" d="M3.23077 0v1.61538H1.61539V0zM19.3846 1.61523v1.61538h-1.61538V1.61523zM4.84613 3.23096v1.61538H3.23075V3.23096z"/>
+  <path fill="var(--color-white)" d="M4.84613 1.61523v1.61538H3.23075V1.61523zm0 3.23096v1.61538H3.23075V4.84619zM16.1539 3.23096v1.61538h-1.61538V3.23096zm0-1.61573v1.61538h-1.61538V1.61523z"/>
+  <path fill="var(--color-white)" d="M16.1539 4.84619v1.61538h-1.61538V4.84619zm-3.2308-1.61523v1.61538h-1.61538V3.23096zm0-1.61573v1.61538h-1.61538V1.61523z"/>
+  <path fill="var(--color-white)" d="M12.9231 4.84619v1.61538h-1.61538V4.84619zm3.2308 1.61524v1.61538h-1.61538V6.46143zm-1.6154 0v1.61538h-1.61538V6.46143z"/>
+  <path fill="var(--color-white)" d="M12.9231 6.46143v1.61538h-1.61538V6.46143zm-1.6154 0v1.61538H9.69232V6.46143zm-1.61538 0v1.61538H8.07694V6.46143zm-1.61542 0v1.61538H6.46152V6.46143z"/>
+  <path fill="var(--color-white)" d="M6.46155 6.46143v1.61538H4.84617V6.46143zm-1.61542 0v1.61538H3.23075V6.46143zM17.7692 11.3076v1.61538h-1.61538V11.3076z"/>
+  <path fill="var(--color-white)" d="M16.1539 11.3076v1.61538h-1.61538V11.3076zm-1.6154 0v1.61538h-1.61538V11.3076zm-1.6154 0v1.61538h-1.61538V11.3076zm-1.6154 0v1.61538H9.69232V11.3076zm-1.61538 0v1.61538H8.07694V11.3076zm-1.61542 0v1.61538H6.46152V11.3076z"/>
+  <path fill="var(--color-white)" d="M6.46155 11.3076v1.61538H4.84617V11.3076zm-1.61542 0v1.61538H3.23075V11.3076zm12.92307 1.6153v1.61538h-1.61538V12.9229z"/>
+  <path fill="var(--color-white)" d="M4.84613 12.9229v1.61538H3.23075V12.9229zm12.92307 1.6157v1.61538h-1.61538V14.5386zm-12.92307 0v1.61538H3.23075V14.5386z"/>
+  <path fill="var(--color-white)" d="M17.7692 16.1538v1.61538h-1.61538V16.1538zm-12.92307 0v1.61538H3.23075V16.1538z"/>
+  <path fill="var(--color-white)" d="M4.84613 17.769v1.61538H3.23075V17.769zm12.92307 0v1.61538h-1.61538V17.769zm1.6154 1.6158v1.61538h-1.61538V19.3848zm-1.6154 0v1.61538h-1.61538V19.3848z"/>
+  <path fill="var(--color-white)" d="M16.1539 19.3848v1.61538h-1.61538V19.3848zm-1.6154 0v1.61538h-1.61538V19.3848zm-1.6154 0v1.61538h-1.61538V19.3848zm-1.6154 0v1.61538H9.69232V19.3848zm-1.61538 0v1.61538H8.07694V19.3848zm-1.61542 0v1.61538H6.46152V19.3848z"/>
+  <path fill="var(--color-white)" d="M6.46155 19.3848v1.61538H4.84617V19.3848zm-1.61542 0v1.61538H3.23075V19.3848z"/>
+  <path fill="var(--color-white)" d="M3.23077 19.3848v1.61538H1.61539V19.3848zM21 21h-1.61538v-1.61538H21z"/>
+  <path fill="var(--color-white)" d="M21 19.3848h-1.61538v-1.61538H21zm0-1.6158h-1.61538v-1.61538H21z"/>
+  <path fill="var(--color-white)" d="M21 16.1538h-1.61538v-1.61538H21z"/>
+  <path fill="var(--color-white)" d="M21 14.5386h-1.61538v-1.61538H21zm0-1.6157h-1.61538v-1.61538H21z"/>
+  <path fill="var(--color-white)" d="M21 11.3076h-1.61538V9.69222H21z"/>
+  <path fill="var(--color-white)" d="M21 9.69238h-1.61538V8.077H21z"/>
+  <path fill="var(--color-white)" d="M21 8.07715h-1.61538V6.46177H21zm0-1.61572h-1.61538V4.84605H21z"/>
+  <path fill="var(--color-white)" d="M21 4.84619h-1.61538V3.23081H21z"/>
+  </symbol>
 </symbol>
 </svg>
