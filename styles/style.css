@@ -116,14 +116,14 @@
   line-height: 14px;
   mix-blend-mode: hard-light;
   text-shadow: 1px 1px var(--color-white, rgb(255 255 255));
-  filter: drop-shadow(0px 0px 2px var(--color-black, rgb(0 0 0)));
+  filter: drop-shadow(5px 5px 5px var(--color-black, rgb(0 0 0)));
   z-index: 1;
 }
 
 @media (width <= 375px) {
   .card__label {
-    top: 22px;
-    right: 13px;
+    top: 23px;
+    right: 14px;
   }
 }
 
@@ -184,10 +184,11 @@
 
 @media (width <= 375px) {
   .dialog__floppy {
-    height: 39px;
-    width: 39px;
+    width: 28px;
+    height: 28px;
   }
 }
+
 .dialog__button {
   display: flex;
   width: 338px;
@@ -206,13 +207,6 @@
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
-  }
-}
-
-@media (width <= 375px) {
-  .dialog__floppy {
-    width: 28px;
-    height: 28px;
   }
 }
 
@@ -260,7 +254,7 @@ body:has(dialog[open]) {
 
 .modal__button {
   text-transform: uppercase;
-  background-color: transparent;
+  background-color: rgb(211 211 211 / 0);
   width: 293px;
   height: 38px;
   font-family: var(--accent-font), fantasy;
