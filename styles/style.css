@@ -14,7 +14,7 @@
   font-variation-settings: "wght" var(--main-weight-400);
   background-size: cover;
   background-image: var(--background-gradient);
-  background-attachment: fixed; 
+  background-attachment: fixed;
 }
 
 .header {
@@ -23,6 +23,7 @@
   padding-block-start: var(--clamp-header-y);
   padding-block-end: var(--clamp-header-y);
   font-family: var(--accent-font), fantasy;
+  width: 100vw;
 }
 
 .header__border {
@@ -32,11 +33,11 @@
   align-items: center;
   row-gap: 20px;
   text-transform: uppercase;
+  border: 2px solid var(--color-black, rgb(0 0 0));
   padding-inline-start: var(--clamp-border-x-700);
-  padding-inline-end: var(--clamp-border-x-700);
+  padding-inline-end:  var(--clamp-border-x-700);
   padding-block-start: var(--clamp-border-y-700);
   padding-block-end: var(--clamp-border-y-700);
-  border: 2px solid var(--color-black, rgb(0 0 0));
   width: var(--clamp-width);
   margin: 0 auto;
   background-color: var(--color-white);
@@ -57,6 +58,14 @@
 
 .header__subtitle {
   font-size: var(--clamp-subtitle);
+  display: flex;
+  justify-content: center;
+}
+
+@media (width >= 375px) {
+  .header__subtitle {
+    width: 100vw;
+  }
 }
 
 .content__list {
@@ -82,7 +91,7 @@
   flex-direction: column;
   row-gap: 27px;
   line-height: 21px;
-  padding: 23px;
+  padding: 24px;
   font-size: 18px;
 }
 
@@ -109,6 +118,7 @@
   line-height: 14px;
   mix-blend-mode: hard-light;
   text-shadow: 1px 1px var(--color-white, rgb(255 255 255));
+  filter: drop-shadow(0px 0px 2px var(--color-black, rgb(0 0 0)));
   z-index: 1;
 }
 
@@ -132,7 +142,6 @@
 
 .card__subtitle {
   width: var(--clamp-card-subtitle);
-  filter: drop-shadow(0px 0px 2px var(--color-black, rgb(0 0 0)));
 }
 
 .card__image {
@@ -195,7 +204,7 @@
 
 @media (width <= 375px) {
   .dialog__button {
-    width: 306px;
+    width: 310px;
     height: 84px;
     justify-content: space-evenly;
     display: flex;
@@ -258,6 +267,7 @@ body:has(dialog[open]) {
   width: 293px;
   height: 38px;
   font-family: var(--accent-font), fantasy;
+  border: 2px solid var(--color-black, rgb(0 0 0));
   cursor: pointer;
 }
 
