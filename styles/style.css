@@ -44,7 +44,7 @@
 @media (width <= 375px) {
   .header__border {
     padding-inline-start: var(--clamp-border-x-375);
-    padding-inline-end:  var(--clamp-border-x-375);
+    padding-inline-end: var(--clamp-border-x-375);
     padding-block-start: var(--clamp-border-y-375);
     padding-block-end: var(--clamp-border-y-375);
   }
@@ -192,7 +192,7 @@
 .dialog__button {
   display: flex;
   width: 338px;
-  height: 56px;
+  height: 55px;
   border: 2px solid var(--color-black, rgb(0 0 0));
   background-color: var(--color-white, rgb(255 255 255));
   position: relative;
@@ -215,13 +215,31 @@
   font-size: 14px;
   line-height: 12.6px;
   align-self: center;
-  padding-bottom: 2px;
+}
+
+@media (width <= 375px) {
+  .dialog__subtitle {
+    padding-bottom: 2px;
+  }
 }
 
 .modal[open] {
   display: flex;
+  min-width: 353px;
   flex-direction: column;
-  padding: 30px;
+  padding-inline-start: 30px;
+  padding-inline-end: 30px;
+  padding-block-start: 30px;
+  padding-block-end: 30px;
+  border: 0;
+}
+
+@media (width <= 375px) {
+  .modal[open] {
+    min-width: 341px;
+    padding-inline-start: 42px;
+    padding-inline-end: 42px;
+  }
 }
 
 .modal[open]::backdrop {
@@ -236,20 +254,33 @@ body:has(dialog[open]) {
   display: flex;
   align-items: center;
   padding-bottom: 30px;
+  width: 293px;
+  column-gap: 20px;
+}
+
+@media (width <= 375px) {
+  .modal__content {
+    width: 257px;
+  }
 }
 
 .modal__floppy {
-  height: 40px;
-  width: 40px;
+  height: 39px;
+  width: 39px;
 }
 
 .modal__subtitle {
   font-family: var(--accent-font), fantasy;
   font-size: 14px;
   line-height: 21px;
-  max-width: 234px;
+  width: 234px;
   text-transform: uppercase;
-  padding-left: 20px;
+}
+
+@media (width <= 375px) {
+  .modal__subtitle {
+    width: 198px;
+  }
 }
 
 .modal__button {
@@ -260,6 +291,13 @@ body:has(dialog[open]) {
   font-family: var(--accent-font), fantasy;
   border: 2px solid var(--color-black, rgb(0 0 0));
   cursor: pointer;
+}
+
+@media (width <= 375px) {
+  .modal__button {
+    width: 257px;
+    align-self: center;
+  }
 }
 
 .filter-invert {
