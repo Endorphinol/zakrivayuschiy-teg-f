@@ -25,6 +25,15 @@
   font-family: var(--accent-font), fantasy;
 }
 
+@media (width >= 1440px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+  }
+}
+
 .header__border {
   display: flex;
   flex-direction: column;
@@ -36,7 +45,6 @@
   padding-block-start: var(--clamp-border-y-700);
   padding-block-end: var(--clamp-border-y-700);
   width: var(--clamp-width);
-  margin: 0 auto;
   background-color: var(--color-white);
 }
 
@@ -59,9 +67,9 @@
   justify-content: center;
 }
 
-@media (width >= 375px) {
+@media (width <= 375px) {
   .header__subtitle {
-    width: 100vw;
+    margin: 0 auto;
   }
 }
 
