@@ -103,7 +103,8 @@
 
 .card__wrapper {
   position: relative;
-  height: var(--clamp-width);
+  height: var(--clamp-height);
+  width: var(--clamp-width);
 }
 
 .card__label {
