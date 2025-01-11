@@ -192,8 +192,9 @@
 
 .dialog__button {
   display: flex;
-  width: 335px;
+  width: 338px;
   height: 55px;
+  padding: 12px;
   border: 2px solid var(--color-black, rgb(0 0 0));
   background-color: var(--color-white, rgb(255 255 255));
   position: relative;
@@ -203,10 +204,10 @@
 
 @media (width <= 375px) {
   .dialog__button {
-    padding-block-start: 4px;
-    width: 306px;
+    padding: 8px;
+    width: 310px;
     height: 84px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     display: flex;
     flex-direction: column;
   }
