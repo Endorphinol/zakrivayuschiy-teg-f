@@ -11,7 +11,7 @@
 */
 .page {
   font-family: var(--main-font), sans-serif;
-  font-variation-settings: "wght" var(--main-weight-400);
+  font-variation-settings: "wght" 400;
   background-size: cover;
   background-image: var(--background-gradient);
   background-attachment: fixed;
@@ -23,7 +23,6 @@
   padding-block-start: var(--clamp-header-y);
   padding-block-end: var(--clamp-header-y);
   font-family: var(--accent-font), fantasy;
-  width: 100vw;
 }
 
 .header__border {
@@ -109,6 +108,7 @@
 
 .card__label {
   position: absolute;
+  opacity: 0.5;
   top: 25px;
   right: 27px;
   font-family: var(--accent-font), fantasy;
@@ -116,7 +116,6 @@
   line-height: 14px;
   mix-blend-mode: hard-light;
   text-shadow: 1px 1px var(--color-white, rgb(255 255 255));
-  filter: drop-shadow(5px 5px 5px var(--color-black, rgb(0 0 0)));
   z-index: 1;
 }
 
@@ -144,6 +143,8 @@
 
 .card__image {
   width: var(--clamp-width);
+  object-fit: cover;
+  object-position: center;
 }
 
 .buttons {
@@ -191,7 +192,7 @@
 
 .dialog__button {
   display: flex;
-  width: 338px;
+  width: 335px;
   height: 55px;
   border: 2px solid var(--color-black, rgb(0 0 0));
   background-color: var(--color-white, rgb(255 255 255));
@@ -202,7 +203,8 @@
 
 @media (width <= 375px) {
   .dialog__button {
-    width: 310px;
+    padding-block-start: 4px;
+    width: 306px;
     height: 84px;
     justify-content: space-evenly;
     display: flex;
@@ -219,7 +221,7 @@
 
 @media (width <= 375px) {
   .dialog__subtitle {
-    padding-bottom: 2px;
+    padding-block-end: 5px;
   }
 }
 
@@ -297,6 +299,17 @@ body:has(dialog[open]) {
   .modal__button {
     width: 257px;
     align-self: center;
+  }
+}
+
+.like-icon {
+  height: 41px;
+  width: 45px;
+}
+
+@media (width <= 375px) {
+  .like-icon {
+    height: 37px;
   }
 }
 

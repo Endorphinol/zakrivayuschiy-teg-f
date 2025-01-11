@@ -1,10 +1,8 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
---main-font: 'Inter', sans-serif;
+--main-font: 'Inter';
 --accent-font: 'Press Start 2P';
---main-weight-400: 400;
---main-weight-700: 700;
 --color-black: rgb(0 0 0);
 --color-white: rgb(255 255 255);
 --contur-heart-color: #000;

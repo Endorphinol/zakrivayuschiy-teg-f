@@ -29,7 +29,7 @@
 
 .buttons__heart {
   background-color: transparent;
-  width: 37px;
+  width: 39px;
   height: 38px;
   border: 0;
   padding: 0;
@@ -46,17 +46,10 @@
   border: 2px solid var(--color-black, rgb(0 0 0));
 }
 
-.heart {
-  animation-name: fill;
-  animation-delay: 0.1s;
-  animation-duration: 0.3s;
-  animation-timing-function: ease-in;
-  animation-iteration-count: 1;
-}
-
 .core {
   transition-property: fill;
   transition-delay: 0.03s;
+  transition-duration: 0.3s;
   fill: transparent;
   transition-timing-function: linear;
 }
@@ -69,11 +62,7 @@
 }
 
 .sparks {
-  transition-property: fill;
-  transition-duration: 0.3s;
-  transition-delay: 0.06s;
   opacity: 0;
-  transition-timing-function: linear;
 }
 
 .contour {
@@ -81,22 +70,6 @@
   transition-duration: 0.1s;
   transition-delay: 0s;
   transition-timing-function: linear;
-}
-
-.like-icon.is-liked .sparks {
-  animation-name: sparks;
-  animation-duration: 0.3s;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-}
-
-.like-icon.is-liked .heart {
-  animation-name: scale;
-  animation-duration: 0.3s;
-  animation-delay: 0.1s;
-  animation-timing-function: ease-in;
-  animation-iteration-count: 1;
 }
 
 .buttons__heart:hover .core {
@@ -152,6 +125,23 @@
   transition-timing-function: linear;
 }
 
+.like-icon.is-liked .heart {
+  animation-name: scale;
+  animation-delay: 0.1s;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  transform-origin: center;
+}
+
+.like-icon.is-liked .sparks {
+  animation-name: sparks;
+  animation-duration: 0.3s;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+
 .buttons__heart:focus {
   outline: none;
 }
@@ -160,6 +150,10 @@
   outline: none;
   border: 2px solid var(--color-black, rgb(0 0 0));
   height: 38px;
+}
+
+.button {
+  transition: box-shadow 0.3s ease; 
 }
 
 .button:focus {
