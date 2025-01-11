@@ -177,6 +177,12 @@
   padding-bottom: 100px;
 }
 
+@media (width <= 375px) {
+  .dialog {
+    width: 375px;
+  }
+}
+
 .dialog__floppy {
   height: 21px;
   width: 21px;
@@ -193,7 +199,7 @@
 
 .dialog__button {
   display: flex;
-  width: 338px;
+  width: 339px;
   height: 55px;
   padding: 12px;
   border: 2px solid var(--color-black, rgb(0 0 0));
