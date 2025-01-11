@@ -308,15 +308,9 @@ body:has(dialog[open]) {
 
 .like-icon {
   display: block;
-  width: 35px;
+  width: 34px;
   height: 34px;
   margin: 0 auto;
-}
-
-@media (width <= 375px) {
-  .like-icon {
-    height: 37px;
-  }
 }
 
 .filter-invert {
