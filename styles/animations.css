@@ -156,7 +156,7 @@
   transition: box-shadow 0.3s ease;
 }
 
-.button:focus {
+.button:focus { 
   outline: none;
   box-shadow: 2px 2px 0 var(--color-black, rgb(0 0 0));
 }

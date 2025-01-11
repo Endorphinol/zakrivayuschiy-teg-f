@@ -67,15 +67,11 @@
   justify-content: center;
 }
 
-@media (width <= 375px) {
-  .header__subtitle {
-    margin: 0 auto;
-  }
-}
-
 .content__list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   row-gap: 50px;
 }
 
@@ -136,9 +132,7 @@
 }
 
 @supports (
-  (text-stroke: 1px rgb(255 255 255)) or
-    (-webkit-text-stroke: 1px rgb(255 255 255))
-) {
+  (text-stroke: 1px rgb(255 255 255)) or (-webkit-text-stroke: 1px rgb(255 255 255))) {
   .card__label {
     -webkit-text-stroke: 1px var(--color-white, rgb(255 255 255));
     text-stroke: 1px var(--color-white, rgb(255 255 255));
@@ -219,12 +213,12 @@
 
 @media (width <= 375px) {
   .dialog__button {
-    padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
     width: 310px;
     height: 84px;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: column;
+    padding: 8px;
   }
 }
 
@@ -233,12 +227,6 @@
   font-size: 14px;
   line-height: 12.6px;
   align-self: center;
-}
-
-@media (width <= 375px) {
-  .dialog__subtitle {
-    padding-block-end: 5px;
-  }
 }
 
 .modal[open] {
@@ -319,8 +307,10 @@ body:has(dialog[open]) {
 }
 
 .like-icon {
-  height: 41px;
-  width: 45px;
+  display: block;
+  width: 35px;
+  height: 34px;
+  margin: 0 auto;
 }
 
 @media (width <= 375px) {
